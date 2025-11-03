@@ -5,6 +5,10 @@ class Cube {
     getSideLength () {
         return this.length;
     }
+    getSurfaceArea () {
+        return (this.length * this.length) * 6;
+    }
+    
 }
 
 module.exports = {

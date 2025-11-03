@@ -13,5 +13,11 @@ describe('Testing the Cube Functions', function() {
         expect(c2.getSurfaceArea()).to.equal(150);
         done();
     });
+
+    it('3. The volume of the Cube', function(done) {
+        let c3 = new Cube(7);
+        expect(c3.getVolume()).to.equal(343);
+        done();
+    });
     
 });
